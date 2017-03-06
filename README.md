@@ -1,51 +1,49 @@
-[![Goover Logo](http://gooverbackend-gooverprd.rhcloud.com/images/logo.png)](http://www.gooverapp.com/)
+[![Goover Logo](https://github.com/ederaildo/goover-services/blob/master/goover_logo.jpg?raw=true)](http://www.gooverapp.com/)
 
 
 #Goover Services
 
-## Sobre
+## About
 
-Goover é um aplicativo que demonstra a tendência de público para os diversos programas ou séries da TV (Aberta e Paga), Stream  e canais de Internet.
+Goover is an mobile app that indicates trendig for TV series, TV Shows and Internet Streams.
 
-O Services é uma aplicação que disponibiliza serviços RESTFul construída sob a estrutura de um Node.JS. Esses serviços REST serão consumidos pelo aplicativo mobile Goover.
+Services is a RESTFul application build with Node.JS. Those services will be read by Goover Mobile App.
 
-## Pré Requisitos
+## Pre Requisites
 
-Para instalar e executar é preciso ter as seguintes ferramentas instaladas:
+For installing and run is necessary:
 
 * [MongoDB](www.mongodb.org)
 * [NPM (Node.Js)](www.npm.org)
 
-## Instalação
+## Installation
 
-O Goover Services foi construído sob o Node.JS.
-Para a instalação é preciso ter o NPM instalado, ir no diretório raiz e executar o comando:
+Goover Services is build with Node.JS, run below npm command in directory as you wish:
 
 ```
 npm install
 ```
 
-No arquivo .env estão disponíveis as configurações de banco de dados para conexão.
+The `.env` file is avaiable all the database configurations.
 
 ## Run
 
-Para subir o servidor com a aplicação, é necessário o MongoDB com a base de dados gooverdb estar rodando localmente.
+To run an application is necessario run MongoDB with gooverdb database running locally. Run the command:
 
 ```
 node server
 ```
 
-O servidor irá rodar em localhost porta 8080. Então é só acessar no browser:
-dd a comment to this line
+The servr will be start a 8080 port. So access URL below:
 
 ```
 http://localhost:8080/docs
 ```
 
-## Documentação
+## Documentation
 
-O Goover Services foi desenvolvido juntamente com o framework [Swagger](www.swagger.io). O Swagger é um framework para APIs que, entre outras coisas, permite documentar todos os serviços de uma API.
-Para acessar a documentação dos serviços e testá-los via interface Swagger basta acessar a URL:
+Goover Services was developed with [Swagger](www.swagger.io) framework. O Swagger is a API generator framework.
+The services endpoint documentation and testing could be accessed by URL:
 
 ```
 http://localhost:8080/docs
