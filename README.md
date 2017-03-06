@@ -5,7 +5,7 @@
 
 ## About
 
-Goover is an mobile app that indicates trendig for TV series, TV Shows and Internet Streams.
+Goover is an mobile app that indicates trending for TV series, TV Shows and Internet Streams.
 
 Services is a RESTFul application build with Node.JS. Those services will be read by Goover Mobile App.
 
